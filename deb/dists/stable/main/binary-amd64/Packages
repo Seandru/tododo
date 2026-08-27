@@ -1,17 +1,3 @@
-
- * Waiting in queue... 
-The following packages have to be installed:
- apt_3.3.1-1.fc44.x86_64        Command-line package manager for Debian packages
- apt-libs_3.3.1-1.fc44.x86_64   Runtime libraries for apt
- apt-utils_3.3.1-1.fc44.x86_64  Package management related utility programs
- libdb_5.3.28-67.fc44.x86_64    The Berkeley DB database library for C
-
- * Waiting in queue... 
- * Waiting for authentication... 
- * Waiting in queue... 
- * Downloading packages... 
- * Running... 
- * Installing packages... 
 Package: tododo
 Architecture: all
 Version: 0.1.2-1
@@ -28,5 +14,4 @@ SHA256: 1f9dea75ccd213612ea67b2b972147a8464d395da2eae96c8bc8310471e058f9
 SHA512: 9eddfb66a6360786b6fe88e447efcf4859cd122b2201bb0c2e1555dcdd624f25636deaa6a26be2f9b12befdc30d57e30f50257801a475896ac9418363d08d145
 Description: Simple command-line todo manager
  A lightweight command-line todo manager written in Bash.
-
 

@@ -1,0 +1,13 @@
+Source: tododo
+Section: utils
+Priority: optional
+Maintainer: Radu
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+
+Package: tododo
+Architecture: all
+Depends: bash
+Description: Simple command-line todo manager
+ A lightweight command-line todo manager written in Bash.

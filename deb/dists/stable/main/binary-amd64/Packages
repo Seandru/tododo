@@ -1,0 +1,17 @@
+Package: tododo
+Architecture: all
+Version: 0.1.2-1
+Priority: optional
+Section: utils
+Maintainer: Radu
+Installed-Size: 10
+Depends: bash
+Filename: deb/pool/main/t/tododo/tododo_0.1.2-1_all.deb
+Size: 1458
+MD5sum: eed95c80670cd7a7163abfa0d9f81364
+SHA1: 9f372cb891c862bd0e726b3191512db692fb802b
+SHA256: 1f9dea75ccd213612ea67b2b972147a8464d395da2eae96c8bc8310471e058f9
+SHA512: 9eddfb66a6360786b6fe88e447efcf4859cd122b2201bb0c2e1555dcdd624f25636deaa6a26be2f9b12befdc30d57e30f50257801a475896ac9418363d08d145
+Description: Simple command-line todo manager
+ A lightweight command-line todo manager written in Bash.
+

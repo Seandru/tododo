@@ -1,0 +1,10 @@
+Package: tododo
+Version: 0.1.2-1
+Architecture: all
+Maintainer: Radu
+Installed-Size: 10
+Depends: bash
+Section: utils
+Priority: optional
+Description: Simple command-line todo manager
+ A lightweight command-line todo manager written in Bash.

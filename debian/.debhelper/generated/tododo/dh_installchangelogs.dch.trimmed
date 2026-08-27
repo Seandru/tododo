@@ -1,0 +1,5 @@
+tododo (0.1.2-1) noble; urgency=medium
+
+  * Initial Debian package.
+
+ -- Radu <seandruandreiradu@gmail.com>  Thu, 27 Aug 2026 16:10:00 +0300

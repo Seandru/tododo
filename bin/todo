@@ -1,0 +1,90 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+TODO_FILE="$HOME/todo.txt"
+
+if [ ! -f "$TODO_FILE" ]; then
+    touch "$TODO_FILE"
+fi
+
+case "$1" in
+    add)
+        shift
+        echo "[ ] $*" >>"$TODO_FILE"
+        ;;
+
+    show|"")
+        nl -w2 -s'. ' "$TODO_FILE"
+        ;;
+
+    done)
+        if [ -z "$2" ]; then
+            echo "Usage: todo done <number>"
+            exit 1
+        fi
+
+        sed -i "${2}s/^\[ \]/[x]/" "$TODO_FILE"
+        ;;
+
+    undone)
+        if [ -z "$2" ]; then
+            echo "Usage: todo undone <number>"
+            exit 1
+        fi
+
+        sed -i "${2}s/^\[x\]/[ ]/" "$TODO_FILE"
+        ;;
+
+    rm)
+        if [ -z "$2" ]; then
+            echo "Usage: todo rm <number>"
+            exit 1
+        fi
+
+        sed -i "${2}d" "$TODO_FILE"
+        ;;
+
+    priority)
+        if [ -z "$2" ] || [ -z "$3" ]; then
+            echo "Usage: todo priority <high|med|low> <number>"
+            exit 1
+        fi
+
+        case "$2" in
+            high)
+                priority="HIGH"
+                ;;
+            med)
+                priority="MED"
+                ;;
+            low)
+                priority="LOW"
+                ;;
+            *)
+                echo "Priority must be high, med, or low"
+                exit 1
+                ;;
+        esac
+
+        sed -i "${3}s/^\(\[[ x]\]\) \(\[.*\] \)\?/\1 [$priority] /" "$TODO_FILE"
+        ;;
+
+    search)
+        shift
+
+        if [ -z "$*" ]; then
+            echo "Usage: todo search <query>"
+            exit 1
+        fi
+
+        grep -in -- "$*" "$TODO_FILE"
+        ;;
+
+    clear)
+        > "$TODO_FILE"
+        ;;
+
+    *)
+        echo "Usage: todo [add|show|done|undone|rm|priority|search|clear]"
+        exit 1
+        ;;
+esac

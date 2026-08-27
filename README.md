@@ -34,14 +34,14 @@ A lightweight command-line TODO manager.
 
 # Commands
 
-todo
-todo add <task>
-todo done <number>
-todo undone <number>
-todo rm <number>
-todo priority <high|med|low> <number>
-todo search <query>
-todo clear
+-todo
+-todo add <task>
+-todo done <number>
+-todo undone <number>
+-todo rm <number>
+-todo priority <high|med|low> <number>
+-todo search <query>
+-todo clear
 
 # Data
 

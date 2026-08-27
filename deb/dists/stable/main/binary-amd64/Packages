@@ -1,22 +1,10 @@
 
  * Waiting in queue... 
 The following packages have to be installed:
- annobin-docs_13.14-1.fc44.noarch         Documentation and shell scripts for use with annobin
- annobin-plugin-gcc_13.14-1.fc44.x86_64   annobin gcc plugin
- dpkg_1.23.7-1.fc44.x86_64                Package maintenance system for Debian Linux
- dpkg-dev_1.23.7-1.fc44.noarch            Debian package development tools
- dpkg-perl_1.23.7-1.fc44.noarch           Dpkg perl modules
- gcc_16.2.1-2.fc44.x86_64                 Various compilers (C, C++, Objective-C, ...)
- gcc-plugin-annobin_16.2.1-2.fc44.x86_64  The annobin plugin for gcc, built by the installed version of gcc
- glibc-devel_2.43-8.fc44.x86_64           Object files for development using standard C libraries.
- kernel-headers_7.1.3-200.fc44.x86_64     Header files for the Linux kernel for use by glibc
- libxcrypt-devel_4.5.2-3.fc44.x86_64      Development files for libxcrypt
- make_1:4.4.1-12.fc44.x86_64              A GNU tool which simplifies the build process for users
- perl-Digest-SHA1_2.13-49.fc44.x86_64     Digest-SHA1 Perl module
- perl-Tie_4.6-525.fc44.noarch             Base classes for tying variables
- perl-Time-Piece_1.3600-525.fc44.x86_64   Time objects from localtime and gmtime
- perl-TimeDate_1:2.33-18.fc44.noarch      A Perl module for time and date manipulation
- xz-lzma-compat_1:5.8.2-2.fc44.x86_64     Older LZMA format compatibility binaries
+ apt_3.3.1-1.fc44.x86_64        Command-line package manager for Debian packages
+ apt-libs_3.3.1-1.fc44.x86_64   Runtime libraries for apt
+ apt-utils_3.3.1-1.fc44.x86_64  Package management related utility programs
+ libdb_5.3.28-67.fc44.x86_64    The Berkeley DB database library for C
 
  * Waiting in queue... 
  * Waiting for authentication... 
@@ -25,8 +13,10 @@ The following packages have to be installed:
  * Running... 
  * Installing packages... 
 Package: tododo
-Version: 0.1.2-1
 Architecture: all
+Version: 0.1.2-1
+Priority: optional
+Section: utils
 Maintainer: Radu
 Installed-Size: 10
 Depends: bash
@@ -35,8 +25,7 @@ Size: 1458
 MD5sum: eed95c80670cd7a7163abfa0d9f81364
 SHA1: 9f372cb891c862bd0e726b3191512db692fb802b
 SHA256: 1f9dea75ccd213612ea67b2b972147a8464d395da2eae96c8bc8310471e058f9
-Section: utils
-Priority: optional
+SHA512: 9eddfb66a6360786b6fe88e447efcf4859cd122b2201bb0c2e1555dcdd624f25636deaa6a26be2f9b12befdc30d57e30f50257801a475896ac9418363d08d145
 Description: Simple command-line todo manager
  A lightweight command-line todo manager written in Bash.
 

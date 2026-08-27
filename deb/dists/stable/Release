@@ -1,20 +1,24 @@
 Origin: Tododo
-Label: Tododo
+Label: Tododo Repository
 Suite: stable
 Codename: stable
-Date: Thu, 27 Aug 2026 14:42:54 +0000
 Architectures: amd64
 Components: main
 Description: Tododo Debian Repository
-
+Date: Thu, 27 Aug 2026 14:48:11 +0000
 MD5Sum:
- fd820a4d5afa0820b1a2f6ff7e3e2288             2016 main/binary-amd64/Packages
- 2ee9aa717620444ccca06bda0f6cbf6b             1004 main/binary-amd64/Packages.gz
-
+ ce5fceda15c06302d8381b23b612f14f              185 Release
+ b30b891651cb92c3c6c1067bc07e8f2c             1111 main/binary-amd64/Packages
+ 09f03b6182cd986d0ed42ddfb5f8853f              645 main/binary-amd64/Packages.gz
+SHA1:
+ 52f1fa6a9bd3ca520e2df807e657c322f9b328c7              185 Release
+ f072943934de09c799b25f14a84bdd45c0b11915             1111 main/binary-amd64/Packages
+ b8f4432387a105b044f3951f80970bdc7293c158              645 main/binary-amd64/Packages.gz
 SHA256:
- 72f33080755c0ca46368305378d2732d78c3a0ccd4f9403b31885f029e05ec9d             2016 main/binary-amd64/Packages
- 4d747e77074293cb230d3d7a93eb5ca359b666d65aa861ea983acbd88046f6c4             1004 main/binary-amd64/Packages.gz
-
+ d794b338bcb490fc1fd41083397ed7cb0ce0f4426b0872d05f2695a248cb5b89              185 Release
+ 752ec1933f21959d285f2f9e089572824c7144abd314d2016f0881e80570c9f3             1111 main/binary-amd64/Packages
+ 045a5144c6c18412db134069cae04a8e396759387bf8fbd239bdeb94ce571a27              645 main/binary-amd64/Packages.gz
 SHA512:
- 1753ee5c761cd79d6f36009e3e90199afe4c435da5d88f474360c1b07261c829432b1f57de6b3342b98026c6596bd0b220faff5fddf54d5df852f51a20909650             2016 main/binary-amd64/Packages
- 3ff9432b788910383670deec176d2846f799d350d480e5fd40915c825b3d2745cfc49611ef1059b9bf40c0debb824df4b84aa89454936e989da61fe6674949a1             1004 main/binary-amd64/Packages.gz
+ 9100f700e5c4023ca6d1abd85a1e63e5316ba38193e39b15c2d65d89dc4f19085317bc77febb5d78710a6e499fb68f4f5029e652e7f32cefcd68655cf77f273a              185 Release
+ b920728ff04af6f747a35de5560c9d58278236e47a1517593fd3ce379652c73c0087126fa160b282f8ec9e574c03d5e65dc42a359a6691f9da1635b1b87d64f8             1111 main/binary-amd64/Packages
+ e16fe4c2fd57bf4ee07e29aff2a2b7873cf481e0c88e924d9d53502ad83f31eb594e71f77f7164b07532acac870f56161511baf6a041f6488865ecd350ae4468              645 main/binary-amd64/Packages.gz

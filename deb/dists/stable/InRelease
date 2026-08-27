@@ -1,36 +1,38 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Thu, 27 Aug 2026 13:57:34 +0000
+Origin: Tododo
+Label: Tododo
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Tododo Debian Repository
+
 MD5Sum:
- 586c67ea273e38d7ec203e99325494ad               38 Release
- 97aeaacbb2cf4fa6ab122a6b5cf34116              605 main/binary-amd64/Packages
- 8d0f8318d65384231733670d6b87574a              434 main/binary-amd64/Packages.gz
-SHA1:
- c16fd27e7254b00296738e844215ec06808200bd               38 Release
- fd78d8766ebc561e40cde6b476f0f690d0dd510f              605 main/binary-amd64/Packages
- 08a21f53f007ea8379c6a29601db22f310e61a07              434 main/binary-amd64/Packages.gz
+ fd820a4d5afa0820b1a2f6ff7e3e2288             2016 main/binary-amd64/Packages
+ 2ee9aa717620444ccca06bda0f6cbf6b             1004 main/binary-amd64/Packages.gz
+
 SHA256:
- 65bd7a60aa76adfc8838482ba73c342d4d8fd0909a51cda8dd6a327c2fb3609c               38 Release
- e41216d4c60b61fd4ecae764a783f0faea2c0440b779c88102b8ca07db238b04              605 main/binary-amd64/Packages
- 45ba3b55cf5c18a44592080f2a916b9f305be8924e7c391fb93882f2a35530f9              434 main/binary-amd64/Packages.gz
+ 72f33080755c0ca46368305378d2732d78c3a0ccd4f9403b31885f029e05ec9d             2016 main/binary-amd64/Packages
+ 4d747e77074293cb230d3d7a93eb5ca359b666d65aa861ea983acbd88046f6c4             1004 main/binary-amd64/Packages.gz
+
 SHA512:
- 0cc35697bc56fb559804061035819a5dbbfb43186f78ee340f8bd4170a39e4f4f1e5d797890ae030664eb7f0fd543aee0639520c76b1e43682580a667379874e               38 Release
- 735deb5bda3b4e234cc1fdb59107303cdd00a44f8ef39a398b6fe33af3983bd158394f7b1dbfc621af341d8e78d3fc400978ddb140e03e0367ee0eab1f838873              605 main/binary-amd64/Packages
- d7d2a3f32f3e6113eb0e4c688d05a19df2f23546efeff048a5619d5f76fab3a6b2758c0084730da6911df5226d6f37e1693a2d5e0ec3859385b744a80d535833              434 main/binary-amd64/Packages.gz
+ 1753ee5c761cd79d6f36009e3e90199afe4c435da5d88f474360c1b07261c829432b1f57de6b3342b98026c6596bd0b220faff5fddf54d5df852f51a20909650             2016 main/binary-amd64/Packages
+ 3ff9432b788910383670deec176d2846f799d350d480e5fd40915c825b3d2745cfc49611ef1059b9bf40c0debb824df4b84aa89454936e989da61fe6674949a1             1004 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEINTXPbrVzzCXTbjODDBFRjnb15AFAmqQQl8ACgkQDDBFRjnb
-15BVAA//TPTHc2Kw6gGAk3BNIjoOZLcq/vKc3oeqyxWt9aTWrHKt9xNC+8n4+YTB
-kavCxkkytM9F+QAFL77FmgSk4gzeWSp5BBS5CUmtcktgFfO9yfnmtK8ECqm/vpNS
-CFLLL8hrmrmDaq3mjOBuW+vriNDZJjMHqOuOh+VDil484PWjuFrdkH79M2d6cDKl
-7DjvUDrCDCN3qMUBs0OcgZ8e8PbH1O2k8Faaj6e2pzn1V18bz2yRvMb8xGZXCTCf
-AiLS9PqK/L5qLiRPp6R7olAdc9O0e3radAeiSVOj7gJH+Eely+l/Gn4lDwLIboqt
-7URMnZTkIxm/LZGecXdG174FUm4p2xL/3BKOavH6J5gsKPqxXBoE+m4S1DE/8X4J
-HQGbkJQtojF4B+pdt3EnkJ+p9KExOi0byzTYhXjz7X99ImmT3pHZC8pE3lg1mzzG
-4rIRewmhK+/pu2Ne92sglT84sYBLAOak9ikYRuw8BrkCEmV4iE8+sXcG7UGD7diU
-Bdvxxd7IHIQE5VK3BI6yyU4LKA9jnvtB2PpUXm6ObrglRdMX7mhAuXPV1oM1IsMv
-+0LhJsmVXxnQnsGJomVGq91N9tbOAjQYNP5eNfajrhRC70fCPkIHZAWsR1+Z/Dph
-pYOmdiiR0uShYB7BI/20UPCWvyXeCKhKrRU4nZUewOpkqShgrfY=
-=b3gj
+iQIzBAEBCgAdFiEEINTXPbrVzzCXTbjODDBFRjnb15AFAmqQTBoACgkQDDBFRjnb
+15Cqsw//eIgUNxWKFIULcq9Tow+sWMtbVM3hKKaCn0ixtJVJ9aoeotdZbffFD6nB
+IP3ASU1OZ1cjzv6WpHrtgIJDU9XasldU61Wh8xuvlF80T2kFt7GWsiOD/CWx6Ca3
++vBuBLy2vYMrn+OvmDUYT2eTv9oiMoXaOViE0vRitxc/udgAzabuzHb7Lf+Xcr8U
+YFCD4gUErNuZHvRga0Iw3VORcoiJznRo1iHOca7S/S/6jCWls10knTugPBJTcImQ
+Oq9CoJ6/oauhWh6fp6T7brqJDQGw+7NpizomnctxydtiICxeMVxi6k+Q5pY5BNYi
+73VN88ZQD8D2svxyGvpuH9EBaWNsf80adkQ8Tk7nc5F8gRzfmpd7QBay1mb/hWfE
+RlnLXx+T2HJRjXAd59hXFELcPgQfVUifWjjcWbVYlen0nd1sTRuZqvJwYoecanJL
+PccKjobgwuo/1VWMaufDTFLVoNEfNJaEYvO7ku1W+TRMTPCRP5C+mSQ+GKugb7TX
+ECYLTXhuRqK+3GecNK6ijGNcBLhVn8lOMuvWb1wbqGuuvtv9hPtbJvEhYW+Fez0W
+IndS1L4USSEtRGj//JuMorqE9cPxQB2KF69dZKiNF6izzXe1C3vsrr5k9HJq4XS2
+5E2UKgsebOGT5QPhVo+5EQ+Euw6D/0UL6lnNNAtgIfswqTrxq34=
+=nZcv
 -----END PGP SIGNATURE-----

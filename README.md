@@ -43,6 +43,6 @@ todo priority <high|med|low> <number>
 todo search <query>
 todo clear
 
-#Data
+# Data
 
 Tasks are stored in ~/todo.txt

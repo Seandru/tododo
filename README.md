@@ -36,14 +36,14 @@ A lightweight command-line TODO manager.
 
 # Commands
 
-- `todo`
-- `todo add <task>`
-- `todo done <number>`
-- `todo undone <number>`
-- `todo rm <number>`
-- `todo priority <high|med|low> <number>`
-- `todo search <query>`
-- `todo clear`
+- `todo` - Show all tasks
+- `todo add <task>` - Add a new task
+- `todo done <number>` - Mark a task as done
+- `todo undone <number>` - Mark a task as unfinished
+- `todo rm <number>` - Remove a task
+- `todo priority <high|med|low> <number>` - Set task priority
+- `todo search <query>` - Search for a task
+- `todo clear` - Clear all tasks
 
 # Data
 
